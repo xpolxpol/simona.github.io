@@ -53,6 +53,20 @@
   .col-sm-4  {
     text-align: justify;
   }
+    
+  #myCarousel {
+    overflow: hidden; /* Если картинка больше нужной ширины, то она будет скрыта */
+    margin: 0 auto; /* Выравнивание слайдшоу по центру */
+  }
+
+  #myCarousel .item {
+      max-height: 535px; /* Максимальная высота слайдшоу в пикселях */
+  }
+
+  #myCarousel img {
+      max-height: 100%; /* Максимальная высота 100%, для того, чтобы изображения было такой же высоты как слайд */
+      margin: 0 auto; /* Выравнивание изображения по центру */
+  }
   </style>
 </head>
 <body>
@@ -103,32 +117,28 @@
         <div class="item active">
           <img src="img_simona1.jpg" alt="simona">
           <div class="carousel-caption">
-            <h3>simona</h3>
-            <p>The atmosphere in simona has a touch of Florence and Venice.</p>
+            
           </div>
         </div>
     
         <div class="item">
           <img src="img_simona2.jpg" alt="simona">
           <div class="carousel-caption">
-            <h3>simona</h3>
-            <p>The atmosphere in simona has a touch of Florence and Venice.</p>
+            
           </div>
         </div>
     
         <div class="item">
           <img src="img_simona3.jpg" alt="Flower">
           <div class="carousel-caption">
-            <h3>simona</h3>
-            <p>Beatiful flowers in Kolymbari, Crete.</p>
+            
           </div>
         </div>
     
         <div class="item">
           <img src="img_simona4.jpg" alt="Flower">
           <div class="carousel-caption">
-            <h3>simona4</h3>
-            <p>Beatiful flowers in Kolymbari, Crete.</p>
+            
           </div>
         </div>
       </div>
