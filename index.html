@@ -74,7 +74,7 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -82,27 +82,27 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Me</a>
+      <a class="navbar-brand" href="#header">СИМОНА</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">WHO</a></li>
-        <li><a href="#">WHAT</a></li>
-        <li><a href="#">WHERE</a></li>
+        <li><a href="#carousel">ФОТО</a></li>
+        <li><a href="#history">ИСТОРИЯ</a></li>
+        <li><a href="#header">ССЫЛКИ</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
 <!-- First Container -->
-<div class="container-fluid bg-1 text-center">
+<div id="header" class="container-fluid bg-1 text-center">
   <h3 class="margin">Привет! Меня зовут Симона...</h3>
   <img src="simona.jpg" class="img-responsive img-circle margin" style="display:inline" alt="simona" width="350" height="350">
-  <h3>Хочешь я раскажу свою историю? Нажимай на кнопку</h3>
+  <h3>Хочешь я раскажу свою историю?</h3>
 </div>
 
 <!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
+<div id="carousel" class="container-fluid bg-2 text-center">
   <h3 class="margin">Моя Жизнь</h3>
   <p>Вот какая я была когда жила у моих либмых хозяев</p>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -164,7 +164,7 @@
 </div>
 
 <!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">
+<div id="history" class="container-fluid bg-3 text-center">
   <h3 class="margin">Моя История</h3><br>
   <div class="row">
     <div class="col-sm-4">
